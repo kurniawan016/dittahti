@@ -9,9 +9,9 @@ import Footer from '../components/footer.vue'
   </main>
 
   <div class="container mx-auto mt-2">
-    <div class="flex bg-gradient-to-br from-cyan-400 via-cyan-500 to-cyan-600 rounded-md h-14">
-      <h1 class="pl-2 w-full text-white text-2xl font-bold pt-2">BERITA</h1>
-      <div class="w-full p-2 grid place-items-end">
+    <div class="flex rounded-md bg-gradient-to-br from-cyan-400 via-cyan-500 to-cyan-600 h-14">
+      <h1 class="w-full pt-2 pl-2 text-2xl font-bold text-white">BERITA</h1>
+      <div class="grid w-full p-2 place-items-end">
 
 <form class="flex items-end">   
     <label for="simple-search" class="sr-only">Search</label>
@@ -31,13 +31,13 @@ import Footer from '../components/footer.vue'
     </div>
   </div>
 
-  <div class="container bg-slate-200 p-2 rounded-md mx-auto mt-2">
+  <div class="container p-2 mx-auto mt-2 rounded-md bg-slate-200">
     <div class="flex">
       <div class="w-full">
           <img class="w-full rounded-md" src="https://akcdn.detik.net.id/community/media/visual/2022/08/20/pelaku-pemalsuan-stnk-di-mataram-dibekuk-polisi-sabtu-2082022_43.jpeg?w=250&q=" alt="">
       </div>
       <div class="w-full pl-4">
-        <h1 class="font-bold text-2xl"> Buron 8 Bulan, Kakek Pemalsu STNK Dibekuk di Mataram"</h1>
+        <h1 class="text-2xl font-bold"> Buron 8 Bulan, Kakek Pemalsu STNK Dibekuk di Mataram"</h1>
         <p class="mt-2">Mataram - Pelaku pemalsuan surat tanda nomor kendaraan (STNK) inisial WP (57) asal Lendang Lekong Timur, Kelurahan Mandalika, Kecamatan Sandubaya, Kota Mataram, NTB dibekuk polisi. WP berhasil ditangkap usai buron 8 bulan<br><br>
 
 Pelaku WP rupanya memalsukan STNK kendaraan roda dua menjadi roda STNK kendaraan roda empat untuk digadaikan ke korban. Selain itu, pelaku produksi nomor seri kendaraan STNK di Denpasar Bali.<br><br>
@@ -46,7 +46,7 @@ Kasat Reskrim Polresta Mataram Kompol Kadek Adi Budi Astawa mengatakan pelaku ru
 </p>
           <div class="flex mt-16">
             <div class="w-full"><h1 class="text-gray-400">Selasa 12/05/2023</h1></div>
-            <div class="w-full rounded-md h-8 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800"><p class="text-center text-white">Selengkapnya</p></div>
+            <a href="/bselengkapnya" class="w-full h-8 rounded-md bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800"><p class="text-center text-white">Selengkapnya</p></a>
           </div>
       </div>
     </div>
@@ -56,50 +56,50 @@ Kasat Reskrim Polresta Mataram Kompol Kadek Adi Budi Astawa mengatakan pelaku ru
     <div class="bg-gray-200 rounded-md w-full h-[400px]">
       <div class="flex gap-4 p-4">
 
-        <div class="w-full bg-slate-400 rounded-md h-44">
+        <a href="/bselengkapnya" class="w-full rounded-md bg-slate-400 h-44">
           <div class="flex gap-4 p-2">
-            <img class="w-44 h-40 rounded-md" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
+            <img class="h-40 rounded-md w-44" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
             <div>
-              <h1 class="font-bold text-lg">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
+              <h1 class="text-lg font-bold">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
               <p class="text-sm">Mataram - Pelaku pemalsuan surat tanda nomor kendaraan (STNK) inisial WP (57) asal Lendang Lekong Timur, Kelurahan Mandalika, Kecamatan Sandubaya, Kota Mataram, NTB dibekuk polisi. WP berhasil ditangkap usai buron 8 bulan</p>
             </div>
           </div>
-        </div>
+        </a>
         
-        <div class="w-full bg-slate-400 rounded-md h-44">
+        <a href="/bselengkapnya" class="w-full rounded-md bg-slate-400 h-44">
           <div class="flex gap-4 p-2">
-            <img class="w-44 h-40 rounded-md" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
+            <img class="h-40 rounded-md w-44" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
             <div>
-              <h1 class="font-bold text-lg">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
+              <h1 class="text-lg font-bold">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
               <p class="text-sm">Mataram - Pelaku pemalsuan surat tanda nomor kendaraan (STNK) inisial WP (57) asal Lendang Lekong Timur, Kelurahan Mandalika, Kecamatan Sandubaya, Kota Mataram, NTB dibekuk polisi. WP berhasil ditangkap usai buron 8 bulan</p>
             </div>
           </div>
-        </div>
+        </a>
 
 
       </div>
 
       <div class="flex gap-4 p-4 pt-0">
 
-<div class="w-full bg-slate-400 rounded-md h-44">
+<a href="/bselengkapnya" class="w-full rounded-md bg-slate-400 h-44">
   <div class="flex gap-4 p-2">
-    <img class="w-44 h-40 rounded-md" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
+    <img class="h-40 rounded-md w-44" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
     <div>
-      <h1 class="font-bold text-lg">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
+      <h1 class="text-lg font-bold">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
       <p class="text-sm">Mataram - Pelaku pemalsuan surat tanda nomor kendaraan (STNK) inisial WP (57) asal Lendang Lekong Timur, Kelurahan Mandalika, Kecamatan Sandubaya, Kota Mataram, NTB dibekuk polisi. WP berhasil ditangkap usai buron 8 bulan</p>
     </div>
   </div>
-</div>
+</a>
 
-<div class="w-full bg-slate-400 rounded-md h-44">
+<a href="/bselengkapnya" class="w-full rounded-md bg-slate-400 h-44">
   <div class="flex gap-4 p-2">
-    <img class="w-44 h-40 rounded-md" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
+    <img class="h-40 rounded-md w-44" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
     <div>
-      <h1 class="font-bold text-lg">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
+      <h1 class="text-lg font-bold">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
       <p class="text-sm">Mataram - Pelaku pemalsuan surat tanda nomor kendaraan (STNK) inisial WP (57) asal Lendang Lekong Timur, Kelurahan Mandalika, Kecamatan Sandubaya, Kota Mataram, NTB dibekuk polisi. WP berhasil ditangkap usai buron 8 bulan</p>
     </div>
   </div>
-</div>
+</a>
 </div>
     </div>
   </div>

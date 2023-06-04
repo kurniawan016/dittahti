@@ -57,6 +57,95 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/Bts.vue')
     },
+    {
+      path: '/bselengkapnya',
+      name: 'bselengkapnya',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../components/bselengkapnya.vue')
+    },
+    {
+      path: '/dbtditreskrimum',
+      name: 'dbtditreskrimum',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/dbtditreskrimum.vue')
+    },
+    {
+      path: '/dbtditlantas',
+      name: 'dbtditlantas',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/dbtditlantas.vue')
+    },
+    {
+      path: '/dbtditreskrimsus',
+      name: 'dbtditreskrimsus',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/dbtditreskrimsus.vue')
+    },
+    {
+      path: '/dbtditresnarkoba',
+      name: 'dbtditresnarkoba',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/dbtditresnarkoba.vue')
+    },
+    {
+      path: '/dbtditpolairud',
+      name: 'dbtditpolairud',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/dbtditpolairud.vue')
+    },
+
+    {
+      path: '/btsditreskrimum',
+      name: 'btsditreskrimum',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/btsditreskrimum.vue')
+    },
+    {
+      path: '/btsditlantas',
+      name: 'btsditlantas',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/btsditlantas.vue')
+    },
+    {
+      path: '/btsditreskrimsus',
+      name: 'btsditreskrimsus',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/btsditreskrimsus.vue')
+    },
+    {
+      path: '/btsditresnarkoba',
+      name: 'btsditresnarkoba',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/btsditresnarkoba.vue')
+    },
+    {
+      path: '/btsditpolairud',
+      name: 'btsditpolairud',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/btsditpolairud.vue')
+    },
   ]
 })
 

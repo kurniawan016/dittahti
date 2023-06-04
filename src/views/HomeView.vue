@@ -17,15 +17,15 @@ import Barang from '../components/barangterbaru.vue'
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://hariannusa.com/wp-content/uploads/2019/12/IMG-20191230-WA0049.jpg" class="absolute block w-full object-fill -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="https://hariannusa.com/wp-content/uploads/2019/12/IMG-20191230-WA0049.jpg" class="absolute block object-fill w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://static.gatra.com/foldershared/images/2022/hew/07-Jul/PJU.jpg" class="absolute block w-full object-fill -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="https://static.gatra.com/foldershared/images/2022/hew/07-Jul/PJU.jpg" class="absolute block object-fill w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://ntbsatu.com/wp-content/uploads/2022/08/IMG-20220819-WA0032.jpg" class="absolute block w-full object-fill -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="https://ntbsatu.com/wp-content/uploads/2022/08/IMG-20220819-WA0032.jpg" class="absolute block object-fill w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
     </div>
     <!-- Slider indicators -->
@@ -51,28 +51,28 @@ import Barang from '../components/barangterbaru.vue'
     </div>
   </div>
 
-  <div class="container grid place-items-center mx-auto">
+  <div class="container grid mx-auto place-items-center">
     <div class="flex gap-4 p-4">
 
-        <div class="w-full bg-slate-200 rounded-md h-44 shadow-lg">
+        <a href="/bselengkapnya" class="w-full rounded-md shadow-lg bg-slate-200 h-44">
   <div class="flex gap-4 p-2">
-    <img class="w-44 h-40 rounded-md" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
+    <img class="h-40 rounded-md w-44" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
     <div>
-      <h1 class="font-bold text-lg">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
+      <h1 class="text-lg font-bold">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
       <p class="text-sm">Mataram - Pelaku pemalsuan surat tanda nomor kendaraan (STNK) inisial WP (57) asal Lendang Lekong Timur, Kelurahan Mandalika, Kecamatan Sandubaya, Kota Mataram, NTB dibekuk polisi. WP berhasil ditangkap usai buron 8 bulan</p>
     </div>
   </div>
-</div>
+</a>
 
-<div class="w-full bg-slate-200 rounded-md h-44 shadow-lg">
+<a href="/bselengkapnya" class="w-full rounded-md shadow-lg bg-slate-200 h-44">
   <div class="flex gap-4 p-2">
-    <img class="w-44 h-40 rounded-md" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
+    <img class="h-40 rounded-md w-44" src="https://cdn.antaranews.com/cache/800x533/2019/07/22/ungkap-narkoba.jpg" alt="">
     <div>
-      <h1 class="font-bold text-lg">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
+      <h1 class="text-lg font-bold">Polres Mataram Mengungkap Kasus Penangkapan Milik Narkoba</h1>
       <p class="text-sm">Mataram - Pelaku pemalsuan surat tanda nomor kendaraan (STNK) inisial WP (57) asal Lendang Lekong Timur, Kelurahan Mandalika, Kecamatan Sandubaya, Kota Mataram, NTB dibekuk polisi. WP berhasil ditangkap usai buron 8 bulan</p>
     </div>
   </div>
-</div>
+</a>
     </div>
   </div>
 

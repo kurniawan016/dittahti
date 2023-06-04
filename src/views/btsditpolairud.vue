@@ -58,8 +58,9 @@ onMounted(() => {
     </div>
 
     <div class="flex gap-1">
-        <div class="h-56 mt-4">
-          <div class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+        <div class="mt-4 h-60">
+            
+<div class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <a href="/btsditreskrimum" class="block w-full px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 focus:outline-none focus:ring-2 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white">
         DITRESKRIMUM
     </a>
@@ -72,10 +73,11 @@ onMounted(() => {
     <a href="/btsditresnarkoba" class="block w-full px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 focus:outline-none focus:ring-2 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white">
         DITRESNARKOBA
     </a>
-    <a href="/btsditpolairud" class="block w-full px-4 py-2 border-b border-gray-200 cursor-pointer hover:bg-gray-100 focus:outline-none focus:ring-2 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white">
+    <a href="/btsditpolairud" class="block w-full px-4 py-2 text-white border-b border-gray-200 cursor-pointer bg-gradient-to-br from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gray-100 focus:outline-none focus:ring-2 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white">
         DITPOLAIRUD
     </a>
 </div>
+
         </div>
     <div class="w-full">
       <div class="grid grid-cols-4 gap-4 p-4">
