@@ -9,16 +9,16 @@ import Footer from '../components/footer.vue'
             <Navbar/>
         </main>
 
-        <div class="text-center mt-4"> 
+        <div class="mt-4 text-center"> 
             <h1 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-4xl dark:text-white">
                 LAYANAN STARBUKS DITTAHTI POLDA NTB
             </h1>
         </div>
-        <div class="container pl-12 pr-12">
-            <img class="h-96 w-full rounded-md" src="https://i.ytimg.com/vi/D9nNLkgpqO0/maxresdefault.jpg" alt="">
+        <div class="container p-2 lg:p-0 lg:pl-12 lg:pr-12">
+            <img class="w-full h-56 rounded-md lg:h-96" src="https://i.ytimg.com/vi/D9nNLkgpqO0/maxresdefault.jpg" alt="">
         </div>
 
-        <div class="text-left mt-6 px-40">
+        <div class="p-2 text-left lg:px-40 lg:mt-6 lg:p-0">
             <p>
                 Dalam rangka lebih cepat memberikan pelayanan kepada masyarakat, Polri telah bekerjasama dengan PT Telekomunikasi Indonesia (Telkom) untuk melaksanakan Layanan Contact Center 110. 
             </p><br>
@@ -36,7 +36,7 @@ import Footer from '../components/footer.vue'
             </p>
         </div> 
 
-        <main class="mt-12">
+        <main class="lg:mt-12">
             <Footer/>
         </main>
     </div>

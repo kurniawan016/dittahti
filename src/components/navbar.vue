@@ -1,10 +1,41 @@
+<script setup>
+import { onMounted } from 'vue'
+import { 
+    initAccordions, 
+    initCarousels, 
+    initCollapses, 
+    initDials, 
+    initDismisses, 
+    initDrawers, 
+    initDropdowns, 
+    initModals, 
+    initPopovers, 
+    initTabs, 
+    initTooltips } from 'flowbite'
+
+// initialize components based on data attribute selectors
+onMounted(() => {
+    initAccordions();
+    initCarousels();
+    initCollapses();
+    initDials();
+    initDismisses();
+    initDrawers();
+    initDropdowns();
+    initModals();
+    initPopovers();
+    initTabs();
+    initTooltips();
+})
+</script>
+
 <template>
     <div class="lg:container lg:mx-auto lg:mt-2">
 
 <nav class="border-gray-200 bg-gradient-to-tr from-cyan-400 via-cyan-500 to-cyan-600 dark:bg-gray-900 dark:border-gray-700 lg:rounded-md">
 <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
 <a href="/" class="flex items-center">
-    <img src="https://i.postimg.cc/9MnG4Fzp/My-project-1-removebg-preview.png" class="h-12 mr-3 lg:h-12" alt="Flowbite Logo" />
+    <img src="https://i.postimg.cc/9MnG4Fzp/My-project-1-removebg-preview.png" class="h-8 mr-3 lg:h-12" alt="Flowbite Logo" />
     <span class="self-center font-semibold text-white lg:text-2xl text-md whitespace-nowrap dark:text-white">STARBUKS DITTAHTI POLDA NTB
 </span>
 </a>
@@ -15,19 +46,19 @@
 <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
   <ul class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg lg:bg-transparent md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
     <li>
-      <a href="/" class="block py-2 pl-3 pr-4 font-bold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:text-white hover:text-gray-900">BERANDA</a>
+      <a href="/" class="block py-2 pl-3 pr-4 font-bold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:text-white hover:text-gray-900">BERANDA</a>
     </li>
     <li>
-      <a href="/berita" class="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:text-white hover:text-gray-900">BERITA</a>
+      <a href="/berita" class="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:text-white hover:text-gray-900">BERITA</a>
     </li>
     <li>
-      <a href="/daftarbarang" class="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:text-white hover:text-gray-900">BARANG BUKTI</a>
+      <a href="/daftarbarang" class="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:text-white hover:text-gray-900">BARANG BUKTI</a>
     </li>
     <li>
-      <a href="/aturan" class="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:text-white hover:text-gray-900">ATURAN</a>
+      <a href="/aturan" class="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:text-white hover:text-gray-900">ATURAN</a>
     </li>
     <li>
-      <a href="/layanan" class="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:text-white hover:text-gray-900">LAYANAN</a>
+      <a href="/layanan" class="block py-2 pl-3 pr-4 font-bold text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent lg:text-white hover:text-gray-900">LAYANAN</a>
     </li>
   </ul>
 </div>

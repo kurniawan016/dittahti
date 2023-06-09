@@ -1,34 +1,6 @@
 <script setup>
 import Navbar from '../components/navbar.vue'
 import Footer from '../components/footer.vue'
-import { onMounted } from 'vue'
-import { 
-    initAccordions, 
-    initCarousels, 
-    initCollapses, 
-    initDials, 
-    initDismisses, 
-    initDrawers, 
-    initDropdowns, 
-    initModals, 
-    initPopovers, 
-    initTabs, 
-    initTooltips } from 'flowbite'
-
-// initialize components based on data attribute selectors
-onMounted(() => {
-    initAccordions();
-    initCarousels();
-    initCollapses();
-    initDials();
-    initDismisses();
-    initDrawers();
-    initDropdowns();
-    initModals();
-    initPopovers();
-    initTabs();
-    initTooltips();
-})
 </script>
 
 <template>
@@ -38,7 +10,7 @@ onMounted(() => {
 
   <div class="container mx-auto">
     <div class="flex mt-2 rounded-md bg-gradient-to-br from-cyan-400 via-cyan-500 to-cyan-600 h-14">
-      <h1 class="w-full pt-2 pl-2 text-2xl font-bold text-white">BARANG TEMUAN SEBAGAI BARANG BUKTI</h1>
+      <h1 class="w-full pt-2 pl-2 text-xs font-bold text-white lg:pt-3 lg:text-2xl">BARANG TEMUAN SEBAGAI BARANG BUKTI</h1>
       <div class="grid w-full p-2 place-items-end">
 
 <form class="flex items-end">   
@@ -57,10 +29,10 @@ onMounted(() => {
       </div>
     </div>
 
-    <div class="flex gap-1">
-        <div class="mt-4 h-60">
+    <div class="gap-1 lg:flex">
+        <div class="h-48 p-2 mt-4 lg:h-60">
             
-<div class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+<div class="w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg lg:w-48 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <a href="/btsditreskrimum" class="block w-full px-4 py-2 text-white border-b border-gray-200 cursor-pointer bg-gradient-to-br from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gray-100 focus:outline-none focus:ring-2 dark:border-gray-600 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white">
         DITRESKRIMUM
     </a>
@@ -80,7 +52,7 @@ onMounted(() => {
 
         </div>
     <div class="w-full">
-      <div class="grid grid-cols-4 gap-4 p-4">
+      <div class="grid grid-cols-2 gap-4 p-4 lg:grid-cols-4">
         <div class="h-64 p-1 mb-2 border border-blue-400 rounded-md">
           <img class="object-cover w-full rounded-md h-44" src="https://spsmotorsleman.com/img_p/2022-09/l_9903_176650_honda-vario-125-spesial-editio-1.jpg" alt="">
           <div class="w-full">
